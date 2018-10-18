@@ -7,6 +7,12 @@ func main() {
 		"red":   "#ff0000",
 		"green": "#4bf745",
 	}
+	//Alternate ways to make a map
+	// var colors map[string]string
+	// colors := make(map[string]string)
+
+	delete(colors, "green")
+	colors["white"] = "#ffffff"
 
 	fmt.Print(colors)
 }
