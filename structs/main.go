@@ -10,4 +10,10 @@ type person struct {
 func main() {
 	alex := person{firstName: "Alex", lastName: "Anderson"}
 	fmt.Println(alex)
+
+	var bob person
+	bob.firstName = "Bob"
+	bob.lastName = "Anderson"
+
+	fmt.Println(bob)
 }
